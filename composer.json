@@ -1,0 +1,22 @@
+{
+    "name": "whytespyder/lead-collector-client",
+    "description": "Send form submissions to a queue for processing by the Lead Collector",
+    "minimum-stability": "dev",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roger Dickey",
+            "email": "rdickey@whytespyder.com",
+            "homepage": "http://rogerdickeyjr.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "WhyteSpyder": ["lib/", "tests/"]
+        }
+    },
+    "require": {
+        "rackspace/php-opencloud": "dev-master"
+    }
+}
