@@ -48,7 +48,7 @@ class LeadCollector {
             ));
         }
         catch (\Exception $e) {
-            throw new Exception(sprintf("Lead Collector: (%d) %s", $e->getCode(), $e->getMessage()));
+            throw new \Exception(sprintf("Lead Collector: (%d) %s", $e->getCode(), $e->getMessage()));
         }
     }
 } 
