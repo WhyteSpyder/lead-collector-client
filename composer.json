@@ -1,6 +1,7 @@
 {
     "name": "whytespyder/lead-collector-client",
     "description": "Send form submissions to a queue for processing by the Lead Collector",
+    "version": "1.0.1",
     "minimum-stability": "dev",
     "type": "library",
     "license": "MIT",
