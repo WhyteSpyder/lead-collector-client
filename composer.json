@@ -1,7 +1,7 @@
 {
     "name": "whytespyder/lead-collector-client",
     "description": "Send form submissions to a queue for processing by the Lead Collector",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "minimum-stability": "dev",
     "type": "library",
     "license": "MIT",
@@ -18,6 +18,6 @@
         }
     },
     "require": {
-        "rackspace/php-opencloud": "dev-master"
+        "rackspace/php-opencloud": "1.10.*"
     }
 }
