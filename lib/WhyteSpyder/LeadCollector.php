@@ -12,7 +12,7 @@ use OpenCloud\Rackspace;
 class LeadCollector {
     private $username;
     private $api_key;
-    private $ttl = 300;
+    private $ttl = 1209600;
     private $queue_name = 'ws-lead-collector';
 
     public function __construct($username, $api_key) {
